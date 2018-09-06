@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">BadmintonGoGo</string>
+    <string name="add_new_player">Add new player</string>
+    <string name="view_all_players">View all players</string>
+    <string name="play_a_game">Play a game</string>
+
+    <string name="hint_name">Name</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="hint_credit">Initial Credit</string>
+    <string name="done">Done</string>
+    <string name="new_player_added">New Player Added</string>
+    
+    <string name="credit_input_invalid">Credit input invalid, Must be a decimal number!</string>
+
+    <string name="input_total_cost">Input total cost of the play</string>
+    <string name="zero_players">0 players</string>
+    <string name="credit">credit</string>
+
+    <string name="credit_top_up">Credit top up</string>
+    <string name="cancel">Cancel</string>
+
+    <string name="top_up_successfully">Top up successfully</string>
+
+</resources>

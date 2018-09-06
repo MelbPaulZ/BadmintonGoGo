@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingStart="16dp"
+    android:paddingRight="16dp">
+
+
+    <com.jaredrummler.materialspinner.MaterialSpinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/spn_player"
+        app:ms_dropdown_max_height="400dp"
+        app:ms_dropdown_height="wrap_content"
+        />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/credit_top_up"
+        android:layout_marginTop="30dp"
+        android:textSize="@dimen/md_title_textsize"
+        />
+
+    <android.support.v7.widget.AppCompatEditText
+        android:id="@+id/edt_add_credit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minWidth="200dp"
+        android:layout_marginTop="10dp"
+        android:inputType="numberDecimal"
+        />
+
+    <com.gc.materialdesign.views.ButtonRectangle
+        android:id="@+id/btn_done_add_credit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:layout_gravity="end"
+        android:text="@string/done" />
+
+
+
+</LinearLayout>
